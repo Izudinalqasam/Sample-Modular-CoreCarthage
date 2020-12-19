@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "1.0.0",
+  "iOS" : [
+    {
+      "name" : "Pods_Core",
+      "hash" : "51fae6d2e12ce2420995cc258bf1dae213e1f7048ec3ea934973a23e6fe20e16",
+      "linking" : "static"
+    }
+  ]
+}

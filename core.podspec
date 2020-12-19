@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint core.podspec' to ensure this is a
+#  Be sure to run `pod spec lint Core.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -13,5 +13,13 @@ Pod::Spec.new do |s|
   s.name         = "Core"
   s.summary      = "Izzudin Core.framework for simple modular app"
   s.requires_arc = true
-
+  s.license = { :type => "MIT", :file => "LICENSE" }
+  s.version = "1.0.0"
+  s.author = { "Qassam" => "ibrohim.gariskeras@gmail.com" }
+  s.homepage = "https://github.com/Izudinalqasam/Sample-Modular-Core"
+  s.source = { :git => "https://github.com/Izudinalqasam/Sample-Modular-Core.git", :tag => "#{s.version}" }
+  s.framework = "UIKit"
+  s.source_files = "Core/**/*.{swift}"
+  #s.resources = "Core/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+  s.swift_version = "5.1"
 end
